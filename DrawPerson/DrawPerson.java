@@ -1,8 +1,8 @@
 // ****************************************************************
 // DrawPerson.java
 //
-// A program that uses the Graphics draw methods to draw a person.
-//        
+// This program uses the Graphics draw methods to draw a person.
+//          
 // ****************************************************************
 
 import javax.swing.JFrame;
@@ -16,9 +16,9 @@ public class DrawPerson
     {
 		JFrame frame = new JFrame ("Draw Person");
 		frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
-
+	
 		DrawPersonPanel panel = new DrawPersonPanel();
-
+	
 		frame.getContentPane().add(panel);
 		frame.pack();
 		frame.setVisible(true);

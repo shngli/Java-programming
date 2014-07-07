@@ -3,6 +3,8 @@
 //
 // The panel for a program that uses the Graphics draw methods to 
 // draw a person.         
+//
+// Contributot: Sheng
 // ****************************************************************
 import javax.swing.JPanel;
 import java.awt.*;

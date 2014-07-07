@@ -1,8 +1,8 @@
 // ****************************************************************
 // DrawPerson.java
 //
-// An program that uses the Graphics draw methods to draw a person.
-//          
+// A program that uses the Graphics draw methods to draw a person.
+// Copyright Sheng         
 // ****************************************************************
 
 import javax.swing.JFrame;

@@ -1,7 +1,6 @@
 //**********************************************************************
-//Class Name: SpaceShip.java
-//
-//Author: Chisheng Li
+// Author: Chisheng Li
+// Class Name: SpaceShip.java
 //
 //Description of the class: This class sets the initial x and y position of 
 //the spaceship, moves the spaceship and updates its position.

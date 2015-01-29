@@ -1,8 +1,7 @@
 //************************************************************************
+// Author: Chisheng Li
 // Class Name: HiLo.java
 // 
-// Author: Chisheng Li (chisli)
-//
 // Description of the class: This class is a guessing game that randomly generates 
 // an integer between 1 and 100. User has to input a guess, and the game will respond
 // if the input is higher or lower than the answer. The input is invalid if it is <1 or >100.

@@ -1,9 +1,7 @@
 //************************************************************************
+// Author: Chisheng Li
 // Class Name: TicTacToe.java
 // 
-// Author: Chisheng Li
-// 
-
 // Description of the class: This class is a Tic-Tac-Toe game. The human player is
 // X by default, and always starts the game first. The computer player is O by default. 
 // The game prompts the human player by displaying the message "PLAYER X, YOUR TURN."
@@ -11,7 +9,6 @@
 //
 // Supplementary files: TicTacToeComPl.java is needed to run the game.
 //*************************************************************************
-
 
 import javax.swing.*;
 import java.awt.event.*;

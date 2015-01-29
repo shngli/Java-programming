@@ -1,10 +1,12 @@
-//**********************************************************************
-//Class Name: Ornament.java
+//************************************************************************
+// Author: Chisheng Li
+// Class Name: Ornament.java
 //
-//Author: Chisheng Li
+// Description of the class: This class defines an ornament as a decorative oval. 
+// Each ornament will be the same shape, but the color and placement can vary. 
 //
-//Supplementary files: TreePanel.java
-//**********************************************************************
+// Supplementary files: TreePanel.java is needed to plot the ornaments.
+//*************************************************************************
 
 import javax.swing.JPanel;
 import java.awt.*;
@@ -14,7 +16,7 @@ import java.util.Random;
 public class Ornament extends JPanel{
 	private int xPos, yPos;
 	private Color clr;
-	private int WIDTH = 10;
+	private int WIDTH = 12;
 	
 	public Ornament(){
 		Random r = new Random();

@@ -1,7 +1,6 @@
 //**********************************************************************
-//Class Name: Asteroid.java
-//
-//Author: Chisheng Li
+// Author: Chisheng Li (chisli)
+// Class Name: Asteroid.java
 //
 //Description of the class: This class sets the initial x and y position of 
 //the asteroid, moves the asteroid towards the left and updates its position.

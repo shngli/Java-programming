@@ -1,10 +1,9 @@
 // ****************************************************************
+// Author: Chisheng Li
 // DrawPersonPanel.java
 //
 // The panel for a program that uses the Graphics draw methods to 
 // draw a person.         
-//
-// Contributor: Sheng
 // ****************************************************************
 import javax.swing.JPanel;
 import java.awt.*;
@@ -17,7 +16,7 @@ public class DrawPersonPanel extends JPanel {
     private int[] shirtY = {100,150,180,160,250,250,160,180,150,100};
     private int[] pantsX = {50,40,80,90,100,140,130};
     private int[] pantsY = {250,400,400,290,400,400,250};
-    private int headX = 60;
+    private int headX = 65;
     private int headY = 40;
     private int[] hairX = {62,70,75,80,85,90,95,100,105,110,118,
 			   112, 102, 93, 81, 73, 62};
@@ -44,23 +43,23 @@ public class DrawPersonPanel extends JPanel {
 			// Draw shirt
 			page.setColor (Color.red);
 			page.fillPolygon (shirtX, shirtY, shirtX.length);
-
+			
 			// Draw the zigzag on the shirt
 			page.setColor (Color.blue);
 			page.drawPolyline (zigzagX, zigzagY, zigzagX.length);
-
+			
 			// Draw pants
 			page.setColor (Color.black);
 			page.fillPolygon (pantsX, pantsY, pantsX.length);
-
+						
 			// Draw a head
 			page.setColor (Color.gray);
 			page.fillOval (headX, headY, 45, 65);
-
+			
 			// Draw hair
 			page.setColor (Color.yellow);
 			page.fillPolygon (hairX, hairY, hairX.length);
-
+			
 			movePerson(200, 0);
 		    }
     }

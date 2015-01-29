@@ -1,8 +1,7 @@
 //************************************************************************
-// Class Name: TicTacToeComPl.java
-// 
 // Author: Chisheng Li
-// 
+// Class Name: TicTacToeComPl.java
+//
 // Description of the class: This class is a supplementary class to TicTacToe.java. 
 // The human player is player one (X), and the computer is player two (O). 
 // The computer selects an available move after the human player, but does not always
@@ -11,7 +10,6 @@
 //
 // Supplementary files: TicTacToe.java is needed to run the game.
 //*************************************************************************
-
 
 public class TicTacToeComPl {
 

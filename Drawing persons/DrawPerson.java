@@ -1,7 +1,8 @@
 // ****************************************************************
+// Author: Chisheng Li
 // DrawPerson.java
 //
-// This program uses the Graphics draw methods to draw a person.
+// An program that uses the Graphics draw methods to draw a person.
 //          
 // ****************************************************************
 

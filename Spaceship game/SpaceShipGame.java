@@ -1,7 +1,6 @@
 //**********************************************************************
-//Class Name: SpaceShipGame.java
-//
-//Author: Chisheng Li
+// Author: Chisheng Li
+// Class Name: SpaceShipGame.java
 //
 //Description of the class: This class creates a spaceship, updates the
 //position of the space ship and render the ship. It also creates 5 asteroids
